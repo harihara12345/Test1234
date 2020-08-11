@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestingParallelTestRun]" parallel="classes">
+  <test name="ParallelTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.example.GoogleIELogin">
+        <methods>
+          <include name="Amazon"/>
+        </methods>
+      </class> <!-- com.example.GoogleIELogin -->
+    </classes>
+  </test> <!-- ParallelTest(failed) -->
+</suite> <!-- Failed suite [TestingParallelTestRun] -->

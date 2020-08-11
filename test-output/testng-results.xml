@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestingParallelTestRun" duration-ms="39110" started-at="2020-07-23T09:57:30Z" finished-at="2020-07-23T09:58:09Z">
+    <groups>
+    </groups>
+    <test name="ParallelTest" duration-ms="39110" started-at="2020-07-23T09:57:30Z" finished-at="2020-07-23T09:58:09Z">
+      <class name="com.example.angular">
+        <test-method status="PASS" signature="Angular()[pri:0, instance:com.example.angular@1753acfe]" name="Angular" duration-ms="15696" started-at="2020-07-23T15:27:30Z" finished-at="2020-07-23T15:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Angular -->
+      </class> <!-- com.example.angular -->
+      <class name="com.example.GoogleIELogin">
+        <test-method status="PASS" signature="Amazon()[pri:0, instance:com.example.GoogleIELogin@20e2cbe0]" name="Amazon" duration-ms="18713" started-at="2020-07-23T15:27:30Z" finished-at="2020-07-23T15:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazon -->
+      </class> <!-- com.example.GoogleIELogin -->
+      <class name="com.example.AmazonLogin">
+        <test-method status="PASS" signature="Amazon()[pri:0, instance:com.example.AmazonLogin@2a5ca609]" name="Amazon" duration-ms="39074" started-at="2020-07-23T15:27:30Z" finished-at="2020-07-23T15:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazon -->
+      </class> <!-- com.example.AmazonLogin -->
+    </test> <!-- ParallelTest -->
+  </suite> <!-- TestingParallelTestRun -->
+</testng-results>

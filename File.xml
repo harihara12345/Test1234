@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestingParallelTestRun" parallel="classes" thread-count="3" >
+ <test name="ParallelTest">
+ <classes>
+ <class name="com.example.angular" />
+  <class name="com.example.AmazonLogin" />
+  <class name="com.example.GoogleIELogin" />
+ </classes>
+ </test>
+</suite>
